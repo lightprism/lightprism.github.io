@@ -170,6 +170,15 @@ header .intro-text .skills {
     border: 0;
 }
 
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #18bc9c;
+}
+
 section {
     padding: 100px 0;
 }
@@ -393,6 +402,10 @@ footer .footer-below {
 .scroll-top .btn:focus {
     outline: 0;
 }
+
+/*-----------------------
+    Portfolio Modals
+------------------------*/
 
 .portfolio-modal .modal-content {
     padding: 100px 0;
