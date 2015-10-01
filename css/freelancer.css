@@ -48,7 +48,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f111";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -153,6 +153,14 @@ header .intro-text .skills {
     font-weight: 700;
 }
 
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle {
+    background-color: #039C95
+}
+
 .navbar a:focus {
     outline: 0;
 }
@@ -177,6 +185,10 @@ header .intro-text .skills {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a {
     color: #18bc9c;
+}
+
+.navbar-default .navbar-nav>a:focus {
+    background-color: #18bc9c;
 }
 
 section {
@@ -395,13 +407,19 @@ footer .footer-below {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 28px;
 }
 
 .scroll-top .btn:focus {
     outline: 0;
 }
+
+.scroll-top .btn .fa {
+    position: absolute;
+    right: 10px;@import url();
+}
+
 
 /*-----------------------
     Portfolio Modals
